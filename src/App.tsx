@@ -1,10 +1,12 @@
-function App() {
+import {useSelector} from 'react-redux'
 
+function App() {
+const state=useSelector((state:any)=>state.count)
 return(
   <div className='bg-green-500'>
  
-   React TypeScript with Tailwind CSS
-   
+   Redux store setup
+   {state}
   </div>
  
 )
