@@ -1,7 +1,7 @@
 function App() {
 
 return(
-  <div>
+  <div className='bg-green-500'>
  
    React TypeScript with Tailwind CSS
    
