@@ -3,7 +3,7 @@ function App() {
 return(
   <div>
  
-    HELLO WORLD
+   React TypeScript with Tailwind CSS
    
   </div>
  
