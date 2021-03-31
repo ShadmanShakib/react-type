@@ -1,9 +1,9 @@
-import {INCREASE_COUNT, DECREASE_COUNT} from '../actions/actionTypes'
+import {INCREASE_COUNT, DECREASE_COUNT} from './actionTypes'
 
 const init={
     count:0
 }
-export const Rootreducer=(state:any=init, action:any)=>{
+const counterReducer=(state:any=init, action:any)=>{
     switch(action.type){
         case INCREASE_COUNT:return{
             ...state,
@@ -16,3 +16,4 @@ export const Rootreducer=(state:any=init, action:any)=>{
         default:return state
     }
 }
+export default counterReducer;

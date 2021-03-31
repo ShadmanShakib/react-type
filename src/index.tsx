@@ -2,11 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { createStore } from 'redux';
 import { Provider } from 'react-redux'
-import {Rootreducer } from './store/reducers/rootreducer'
-
-const store=createStore(Rootreducer)
+import store from './store/store'
 
 ReactDOM.render(
   <React.StrictMode>
