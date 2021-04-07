@@ -3,11 +3,11 @@ import Header from './Header';
 import Sidebar from '../sidebar';
 import PhoneSidebar from '../sidebar/PhoneSidebar';
 
-interface LayoutInf{
+interface Props{
     children:React.ReactNode
 }
 
-function Layout({children}:LayoutInf):JSX.Element {
+function Layout({children}:Props):JSX.Element {
     return (
         <React.Fragment>
         <div className=" relative">
